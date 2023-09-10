@@ -1,0 +1,143 @@
+body {
+  background-image: url('listbackground.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 601px;
+  width: 301px;
+}
+
+#head {
+  background-color: coral;
+  border-radius: 8px;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 34px;
+  margin-left: 20%;
+  width: 55%;
+}
+
+#popup-content {
+  width: 85%;
+  max-height: 509px;
+  margin-left: 9%;
+  margin-top: 10px;
+  overflow-y: auto;
+}
+
+#popup-content2 {
+  width: 85%;
+  max-height: 509px;
+  margin-left: 9%;
+  margin-top: 10px;
+  overflow-y: auto;
+  display: none;
+  background:none;
+}
+
+#todo-input, #todo-input2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+#todo-text, #todo-text2{
+  width: 70%;
+  padding: 5px;
+  border-radius:8px;
+  margin-bottom:5px;
+  margin-right: 5px;
+}
+
+
+
+
+#add-button{
+  padding: 5px 10px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#add-button:hover {
+  background-color: #005d99;
+}
+#add-button2{
+  padding: 5px 10px;
+  background-color: #007acc;
+  color: #fff;
+  border: solid;
+  border-radius:8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+#add-button2:hover{
+background-color:yellow;
+color:black;
+
+}
+
+/* Custom list style */
+.custom-list-style {
+  list-style: none;
+}
+
+.custom-list-style li::before {
+  content: "* ";
+  color: blue;
+  font-size: 1.1em;
+}
+
+.custom-list-style li {
+  font-size: 0.9rem;
+  margin-top: 11px;
+    margin-bottom: 7px;
+}
+
+#popup-content ul li:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+
+#popup-content2 ul li:hover {
+  background-color:orange;
+  cursor: pointer;
+}
+
+#current-date-time{
+  border-radius: 8px;
+  border-style: solid;
+  background-color: white;
+padding:5px;
+}
+
+#date-time{
+padding:10px;
+padding-left:25px;
+}
+
+#todo-input2{
+  background:none;
+  margin-left: 20px;
+
+}
+ #datepicker {
+  width: 70%;
+  padding: 5px;
+  border-radius:8px;
+  margin-bottom:5px;
+  margin-right: 5px;
+ }
+
+.datetext{
+  color:red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Popup</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <link rel="stylesheet" type="text/css" href="jquery-ui.css">
+
+</head>
+<body>
+ <div id="head">click to delete items<br />F3 = switch to dates</div>
+ <div id="date-time" style="display: none;">
+  Today: <span id="current-date-time"></span>
+ </div> 
+ <div id="popup-content">
+
+ </div>
+  <div id="popup-content2">
+  </div>
+    <div id="todo-input">
+      <input type="text" id="todo-text" maxlength="250" placeholder="Enter a new to-do item"  style="display:inline-block;">
+      <button id="add-button" style="display:inline-block;">Add</button>
+    </div>
+  
+<!-- New div for input elements in popup-content2 -->
+<div id="todo-input2" style="display:none;">
+  <input type="text" id="todo-text2" placeholder="Enter a new time-sensitive to-do item"><br />  
+  <input type="text" id="datepicker" placeholder="Select Date"><br />  
+  <button id="add-button2" style="display:inline-block;">Add Date/ Item</button>
+</div>
+
+
+
+
+  <script src="popup.js"></script>
+  <script src="jquery-3.7.1.min.js"></script> 
+  <script src="jquery-ui.min.js"></script>
+  <script src="datepicker.js"></script>
+  
+
+</body>
+</html>

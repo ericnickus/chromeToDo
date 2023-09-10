@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "My Chrome Popup Extension",
+    "version": "1.0",
+    "description": "A small popup window that appears on any website.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "img/sickest_icon.png",
+        "48": "img/sickest_icon.png",
+        "128": "img/sickest_icon.png"
+      }
+    },
+    "icons": {
+        "16": "img/sickest_icon.png",
+        "48": "img/sickest_icon.png",
+        "128": "img/sickest_icon.png"
+    }
+  }
